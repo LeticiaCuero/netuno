@@ -65,7 +65,7 @@ body, ul{
     display: none;
 }
 
-#carouselExempleInterval {
+#carouselExampleInterval {
     position: relative;
     z-index: 10;
     padding-top: 0px;
@@ -82,9 +82,10 @@ body, ul{
 
 .carousel-inner img{
     object-fit: fill;
+    
 }
 
-@midia (max-width: 600px){
+@media (max-width: 600px){
     #menu{
         display: block;
         position: absolute;
